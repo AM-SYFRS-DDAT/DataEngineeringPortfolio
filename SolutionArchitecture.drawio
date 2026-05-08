@@ -7,9 +7,6 @@
         <mxCell id="s_IMZzQay64UKOxaqx8T-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;spacingLeft=20;" value="Frontend Container" vertex="1">
           <mxGeometry height="120" width="570" x="230" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="s_IMZzQay64UKOxaqx8T-3" parent="s_IMZzQay64UKOxaqx8T-1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="f&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rontend_requirements.txt&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
-        </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-8" connectable="0" parent="s_IMZzQay64UKOxaqx8T-1" style="group" value="" vertex="1">
           <mxGeometry height="60" width="175" x="199" y="40" as="geometry" />
         </mxCell>
@@ -28,20 +25,23 @@
         <mxCell id="s_IMZzQay64UKOxaqx8T-9" parent="s_IMZzQay64UKOxaqx8T-11" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Logos-2642/bxl-docker-1377.svg" value="" vertex="1">
           <mxGeometry height="30" width="30" x="15" y="6" as="geometry" />
         </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-49" connectable="0" parent="s_IMZzQay64UKOxaqx8T-1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-3" parent="s_IMZzQay64UKOxaqx8T-49" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="f&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ront_requirements.txt&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-44" parent="s_IMZzQay64UKOxaqx8T-49" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Solid_Vol_2-2639/bxs-file-txt-948.svg" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="3" y="8" as="geometry" />
+        </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-5" edge="1" parent="1" source="s_IMZzQay64UKOxaqx8T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s_IMZzQay64UKOxaqx8T-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-20" edge="1" parent="1" source="s_IMZzQay64UKOxaqx8T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s_IMZzQay64UKOxaqx8T-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s_IMZzQay64UKOxaqx8T-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="shared_requirements.txt" vertex="1">
-          <mxGeometry height="60" width="170" y="240" as="geometry" />
-        </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;align=left;spacingLeft=20;" value="Backend Container" vertex="1">
           <mxGeometry height="120" width="570" x="230" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="s_IMZzQay64UKOxaqx8T-13" parent="s_IMZzQay64UKOxaqx8T-12" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="back&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;end_requirements.txt&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
         </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-14" connectable="0" parent="s_IMZzQay64UKOxaqx8T-12" style="group" value="" vertex="1">
           <mxGeometry height="60" width="175" x="203" y="40" as="geometry" />
@@ -60,6 +60,15 @@
         </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-19" parent="s_IMZzQay64UKOxaqx8T-17" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Logos-2642/bxl-docker-1377.svg" value="" vertex="1">
           <mxGeometry height="30" width="30" x="15" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-50" connectable="0" parent="s_IMZzQay64UKOxaqx8T-12" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-13" parent="s_IMZzQay64UKOxaqx8T-50" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="back&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_requirements.txt&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-45" parent="s_IMZzQay64UKOxaqx8T-50" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Solid_Vol_2-2639/bxs-file-txt-948.svg" value="" vertex="1">
+          <mxGeometry height="24" width="24" y="8" as="geometry" />
         </mxCell>
         <mxCell id="s_IMZzQay64UKOxaqx8T-22" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Bootstrap_Vol_3-2297/filetype-csv-882.svg" value="" vertex="1">
           <mxGeometry height="50" width="50" x="441" y="320" as="geometry" />
@@ -137,6 +146,27 @@
             <mxPoint x="650" y="530" as="sourcePoint" />
             <mxPoint x="650" y="480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-42" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Material_Core-2642/file-download-1137.svg" value="User downloads&lt;div&gt;clean file&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="39.79" x="860" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-48" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="160" x="10" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-4" parent="s_IMZzQay64UKOxaqx8T-48" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;spacingLeft=15;" value="shared_requirements.txt" vertex="1">
+          <mxGeometry height="60" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-46" parent="s_IMZzQay64UKOxaqx8T-48" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Solid_Vol_2-2639/bxs-file-txt-948.svg" value="" vertex="1">
+          <mxGeometry height="24" width="24" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-51" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="160" x="10" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-52" parent="s_IMZzQay64UKOxaqx8T-51" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;spacingLeft=15;" value="docker-compose.yml" vertex="1">
+          <mxGeometry height="60" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-43" parent="s_IMZzQay64UKOxaqx8T-51" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Bootstrap_Vol_3-2297/filetype-yml-1002.svg" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="3" y="7" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
