@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="nqSK1xP8t5Blc0yiXgsj">
-    <mxGraphModel>
+    <mxGraphModel dx="1406" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s_IMZzQay64UKOxaqx8T-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Frontend Container" vertex="1">
+          <mxGeometry height="120" width="570" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-3" parent="s_IMZzQay64UKOxaqx8T-1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="f&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rontend_requirements.txt&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-8" connectable="0" parent="s_IMZzQay64UKOxaqx8T-1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="175" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-7" parent="s_IMZzQay64UKOxaqx8T-8" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="app.py" vertex="1">
+          <mxGeometry height="60" width="175" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-6" parent="s_IMZzQay64UKOxaqx8T-8" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Ionicons_Fill_Vol_2-2187/logo-python-593.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="25" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-11" connectable="0" parent="s_IMZzQay64UKOxaqx8T-1" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="170" x="390" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-10" parent="s_IMZzQay64UKOxaqx8T-11" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Dockerfile" vertex="1">
+          <mxGeometry height="60" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-9" parent="s_IMZzQay64UKOxaqx8T-11" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Logos-2642/bxl-docker-1377.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="15" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-5" edge="1" parent="1" source="s_IMZzQay64UKOxaqx8T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s_IMZzQay64UKOxaqx8T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-20" edge="1" parent="1" source="s_IMZzQay64UKOxaqx8T-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="s_IMZzQay64UKOxaqx8T-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="shared_requirements.txt" vertex="1">
+          <mxGeometry height="60" width="170" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Backend Container" vertex="1">
+          <mxGeometry height="120" width="570" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-13" parent="s_IMZzQay64UKOxaqx8T-12" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="back&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;end_requirements.txt&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="15" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-14" connectable="0" parent="s_IMZzQay64UKOxaqx8T-12" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="175" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-15" parent="s_IMZzQay64UKOxaqx8T-14" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" value="processor.py" vertex="1">
+          <mxGeometry height="60" width="175" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-16" parent="s_IMZzQay64UKOxaqx8T-14" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Ionicons_Fill_Vol_2-2187/logo-python-593.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="21" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-17" connectable="0" parent="s_IMZzQay64UKOxaqx8T-12" style="group" value="" vertex="1">
+          <mxGeometry height="60" width="170" x="390" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-18" parent="s_IMZzQay64UKOxaqx8T-17" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Dockerfile" vertex="1">
+          <mxGeometry height="60" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s_IMZzQay64UKOxaqx8T-19" parent="s_IMZzQay64UKOxaqx8T-17" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Boxicons_Logos-2642/bxl-docker-1377.svg" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="15" y="6" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
