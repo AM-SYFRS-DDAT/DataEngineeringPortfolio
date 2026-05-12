@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .upload-container {
+            background: #fff;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        input[type="file"] {
+            display: block;
+            padding: 5px;
+        }
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="upload-container">
+    <h2>Upload Your File</h2>
+    <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="fileInput">Choose file(s):</label>
+        <input type="file" id="fileInput" name="files[]" multiple required>
+        <div id="errorMsg" class="error"></div>
+        <button type="submit">Upload</button>
+    </form>
+</div>
+
+<script>
+    // Client-side validation
+    document.getElementById('uploadForm').addEventListener('submit', function(event) {
+        const fileInput = document.getElementById('fileInput');
+        const errorMsg = document.getElementById('errorMsg');
+        errorMsg.textContent = '';
+
+        if (fileInput.files.length === 0) {
+            errorMsg.textContent = 'Please select at least one file.';
+            event.preventDefault();
+            return;
+        }
+
+        // Optional: Limit file size to 5MB each
+        for (let file of fileInput.files) {
+            if (file.size > 5 * 1024 * 1024) {
+                errorMsg.textContent = `File "${file.name}" exceeds 5MB limit.`;
+                event.preventDefault();
+                return;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
